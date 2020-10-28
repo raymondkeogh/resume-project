@@ -35,6 +35,11 @@
 .bg-color-work-history{
     background-color:#9b59b6;
 }
+
+.bg-color-contact{
+    background-color: #fff;
+
+}
 /* --------------------------------------Special Padding margins and text*/
 
 h1,
@@ -341,4 +346,35 @@ footer{
 
 .history-items{
     margin-bottom: 30px;
+}
+
+/* --------------------------Contact Form*/
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    max-width: 80%;
+    padding-top: 10px;
+    margin: 0 auto; /* This centers the content*/
+}
+
+button[type="submit"]{ /* this allows you to target a specific type of button*/
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#fafafa;
+    background-color:#e84610;
+}
+
+@media(min-width: 992px){
+    .center-form{
+    max-width: 50%;
+    min-height: 24opx;
+    padding-top: 30px;
+    margin: 0 auto; 
+    }
 }
